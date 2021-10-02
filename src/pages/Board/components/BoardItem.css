@@ -1,0 +1,11 @@
+.BoardItem {
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+.BoardItem-bubble {
+    width: 70px;
+    height: 70px;
+    border: 1px solid blue;
+    background: white;
+    border-radius: 50%;
+}

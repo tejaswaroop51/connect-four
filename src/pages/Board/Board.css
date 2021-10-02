@@ -1,0 +1,39 @@
+.Board {
+    width: 100%;
+    border: 2px solid grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.Board-row {
+    display: flex;
+}
+.Board-input {
+    display: flex;
+    flex-direction: column;
+}
+.Board-weight {
+    padding: 10px;
+}
+.Board-height {
+    padding: 10px;
+}
+.Board-game-success {
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.Board-start-again {
+    width: 100px;
+    height: 100px;
+    background: yellow;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
